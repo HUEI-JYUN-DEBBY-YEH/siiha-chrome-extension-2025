@@ -1,0 +1,36 @@
+{
+  "version": "j-1c-ext",
+  "thresholds": {
+    "lowMediumBase": 0.50,
+    "lowMediumJitter": 0.15
+  },
+  "textVariation": {
+    "enabled": true,
+    "probability": 0.06
+  },
+  "rotation": {
+    "salt": "ext",
+    "bucketSpread": 0.35
+  },
+  "styleTweaks": {
+    "a7f2.short":   { "enforceThreeBeat": true,  "permissionRate": 0.90, "ellipsisRate": 0.08, "textVariation": { "enabled": false } },
+    "a7f2.medium":  {                        "permissionRate": 0.60, "ellipsisRate": 0.06, "textVariation": { "enabled": false } },
+    "a7f2.long":    {                        "permissionRate": 0.55, "ellipsisRate": 0.05, "textVariation": { "enabled": false } },
+
+    "a7f2.short.en":  { "enforceThreeBeat": true,  "permissionRate": 0.85, "ellipsisRate": 0.10, "textVariation": { "enabled": true,  "probability": 0.12 } },
+    "a7f2.medium.en": {                        "permissionRate": 0.55, "ellipsisRate": 0.08, "textVariation": { "enabled": true,  "probability": 0.10 } },
+    "a7f2.long.en":   {                        "permissionRate": 0.50, "ellipsisRate": 0.08, "textVariation": { "enabled": true,  "probability": 0.08 } },
+
+    "b3c1.short":   { "enforceThreeBeat": true,  "permissionRate": 0.75, "ellipsisRate": 0.08, "textVariation": { "enabled": false } },
+    "b3c1.medium":  {                        "permissionRate": 0.60, "ellipsisRate": 0.06, "textVariation": { "enabled": false } },
+    "b3c1.long":    {                        "permissionRate": 0.55, "ellipsisRate": 0.05, "textVariation": { "enabled": false } },
+    "b3c1.short.en":  { "enforceThreeBeat": true,  "permissionRate": 0.70, "ellipsisRate": 0.10, "textVariation": { "enabled": true,  "probability": 0.12 } },
+    "b3c1.medium.en": {                        "permissionRate": 0.55, "ellipsisRate": 0.08, "textVariation": { "enabled": true,  "probability": 0.10 } },
+    "b3c1.long.en":   {                        "permissionRate": 0.50, "ellipsisRate": 0.08, "textVariation": { "enabled": true,  "probability": 0.08 } },
+
+    "d401.short":   { "enforceThreeBeat": true,  "permissionRate": 0.40, "ellipsisRate": 0.04, "textVariation": { "enabled": false } },
+    "d401.medium":  {                        "permissionRate": 0.40, "ellipsisRate": 0.04, "textVariation": { "enabled": false } },
+    "d401.short.en":{ "enforceThreeBeat": true,  "permissionRate": 0.35, "ellipsisRate": 0.06, "textVariation": { "enabled": true,  "probability": 0.06 } },
+    "d401.medium.en":{                       "permissionRate": 0.35, "ellipsisRate": 0.06, "textVariation": { "enabled": true,  "probability": 0.06 } }
+  }
+}

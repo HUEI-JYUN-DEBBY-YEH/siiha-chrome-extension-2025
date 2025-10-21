@@ -1,0 +1,24 @@
+[
+  {
+    "id": "protective_hold_1",
+    "title": "You’re not alone.",
+    "steps": [
+      "Pause and take one deep breath.",
+      "If overwhelmed, step away from screen for a minute.",
+      "Reach out to someone you trust.",
+      "If unsafe, call your local emergency number."
+    ],
+    "disclaimer": "Offline crisis card. No medical advice. Call emergency services if unsafe."
+  },
+  {
+    "id": "grounding_1",
+    "title": "Stay with the moment.",
+    "steps": [
+      "Look around — name 5 things you see.",
+      "Name 4 things you can touch.",
+      "Listen — 3 sounds around you.",
+      "Breathe — 2 deep breaths, slowly."
+    ],
+    "disclaimer": "This grounding exercise helps calm racing thoughts."
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "SIIHA Pacing – Chrome AI Companion (Developer Preview)",
+  "version": "0.1",
+  "description": "Floating companion button → rest nudges + local-only storage (dev skeleton).",
+  "permissions": ["storage", "alarms", "idle", "activeTab"],
+  "host_permissions": ["*://*/*"],
+  "background": {
+    "service_worker": "src/background/serviceWorker.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["src/content/floater.js"],
+      "type": "module",
+      "run_at": "document_idle"
+    }
+  ],
+  "options_ui": { 
+    "page": "src/ui/options.html", 
+    "open_in_tab": true 
+  },
+  "web_accessible_resources": [
+    {
+      "matches": ["<all_urls>"],
+      "resources": [
+        "src/assets/guardian.png",
+        "src/data/crisis_local.json",
+        "src/data/grounding_local.json",
+        "src/logic/*.js",
+        "src/logic/*.mjs",
+        "src/logic/*.json",
+        "src/utils/*.js",
+        "src/data/*.json",
+        "src/config/*.json",
+        "dist/*.json"
+      ]
+    }
+  ]
+}

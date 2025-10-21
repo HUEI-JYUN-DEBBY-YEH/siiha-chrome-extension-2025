@@ -1,0 +1,105 @@
+{
+  "version": "1",
+  "locale": "en",
+  "units": [
+    {
+      "id": "g10_breath_box",
+      "label": "Box breath • 10 sec",
+      "duration_s": 10,
+      "tags": ["short"],
+      "kind": "breath",
+      "intro": "You're doing your best. One small breath cycle together.",
+      "beats": [
+        { "label": "Inhale", "ms": 3000 },
+        { "label": "Hold",   "ms": 1500 },
+        { "label": "Exhale", "ms": 3500 }
+      ],
+      "loops": 1,
+      "outro": ["Nice. Notice one spot in your body that feels 1% softer."]
+    },
+    {
+      "id": "g10_senses_321",
+      "label": "3-2-1 senses • 10 sec",
+      "duration_s": 10,
+      "tags": ["short"],
+      "kind": "senses",
+      "intro": "Tiny check-in. Nothing to fix.",
+      "steps": [
+        { "text": "Name 1 color you can see." },
+        { "text": "Name 1 sound you can hear." },
+        { "text": "Press one fingertip to another." }
+      ],
+      "cadence_ms": 2500,
+      "outro": ["That counts. A micro step is still a step."]
+    },
+
+    {
+      "id": "g60_senses_54321",
+      "label": "5-4-3-2-1 • 1 min",
+      "duration_s": 60,
+      "tags": ["medium"],
+      "kind": "senses",
+      "intro": "Let’s land in the room together.",
+      "steps": [
+        { "text": "5 things you can see." },
+        { "text": "4 things you can feel (skin, fabric, chair)." },
+        { "text": "3 things you can hear, near or far." },
+        { "text": "2 things you can smell or recall smelling." },
+        { "text": "1 thing you can taste or imagine tasting." }
+      ],
+      "cadence_ms": 6000,
+      "outro": ["Good. If it helped a little, that’s enough for now."]
+    },
+    {
+      "id": "g60_breath_446_loop",
+      "label": "Paced breath 4–4–6 • 1 min",
+      "duration_s": 60,
+      "tags": ["medium"],
+      "kind": "breath",
+      "intro": "We’ll do gentle cycles. Adjust pace if you need.",
+      "beats": [
+        { "label": "Inhale", "ms": 4000 },
+        { "label": "Hold",   "ms": 4000 },
+        { "label": "Exhale", "ms": 6000 }
+      ],
+      "loops": 4,
+      "outro": ["Notice your shoulders or jaw. Can they drop 2%?"]
+    },
+
+   {
+      "id": "g120_scan_short",
+      "label": "Mini body scan • 2 min",
+      "duration_s": 120,
+      "tags": ["long"],
+      "kind": "senses",
+      "intro": "Two quiet minutes. You can stop anytime.",
+        "steps": [
+        { "text": "Eyes: soften your gaze, even if closed." },
+        { "text": "Jaw: unhook your teeth, place tongue wide." },
+        { "text": "Shoulders: let gravity do 1% more of the work." },
+        { "text": "Hands: loosen each finger, palm warm and heavy." },
+        { "text": "Belly: allow a slower, wider inhale." },
+        { "text": "Exhale a little longer than you inhale." },
+        { "text": "Thighs + calves: notice the contact with chair or floor." },
+        { "text": "Feet: feel heel, arch, toes in order." }
+      ],
+      "cadence_ms": 8000,
+      "outro": ["How’s the room feel now—1% different is still different."]
+    },
+    {
+      "id": "g120_breath_alt",
+      "label": "Longer paced breath • 2 min",
+      "duration_s": 120,
+      "tags": ["long"],
+      "kind": "breath",
+      "intro": "Slow and kind. If dizzy, return to normal breathing.",
+      "beats": [
+        { "label": "Inhale", "ms": 3500 },
+        { "label": "Hold",   "ms": 2500 },
+        { "label": "Exhale", "ms": 7000 }
+      ],
+      "loops": 6,
+      "outro": ["If you want, we can do another round—or take the next step."]
+    }
+  ]
+}

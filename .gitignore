@@ -1,0 +1,44 @@
+# OS / tooling
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.idea/
+.vscode/
+*.swp
+
+# Node
+node_modules/
+coverage/
+.cache/
+
+# Env / secrets
+.env
+.env.*
+*.local
+*.secret
+*.pem
+
+# Build outputs
+build/
+out/
+*.map
+
+# Chrome extension artifacts
+# 私鑰一定不要上傳
+*.crx
+*.zip
+*.pem
+
+# Generated data/config (公開版不需追蹤的處理後產物)
+src/data/private*/
+src/config/*.private.json
+src/data/*-secret*.json
+src/data/*-internal*.json
+
+# Temporary or tooling outputs
+tmp/
+.temp/
+.scripts-cache/

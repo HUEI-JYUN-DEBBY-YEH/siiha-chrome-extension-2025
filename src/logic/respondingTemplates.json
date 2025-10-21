@@ -1,0 +1,287 @@
+{
+  "version": "human-centered-agent-1d",
+  "schema": "adaptive-rhythm-v1",
+  "lang": {
+    "en": {
+      "styles": {
+        "a7f2": {
+          "label": "listen-plain",
+          "variants": {
+            "p01": [
+              {
+                "id": "a7f2_p01_en_01",
+                "aud": "ext",
+                "opening": "I’m tracking you. What I’m hearing is this: {{a1}} {{a2}}.",
+                "middle": "You made it clear and specific; I’ve got the shape of it.",
+                "closing": "We can stay right here — no need to decide anything now."
+              },
+              {
+                "id": "a7f2_p01_en_02",
+                "aud": "ext",
+                "opening": "You laid it out: {{a1}} {{a2}} — I hear the weight and the intent.",
+                "middle": "Nothing to fix mid-sentence; I’m here and listening cleanly.",
+                "closing": "If more wants to come, I’m listening. Silence is okay too."
+              },
+              {
+                "id": "a7f2_p01_en_03",
+                "aud": "ext",
+                "opening": "Got it. Key points I heard: {{a1}} {{a2}}.",
+                "middle": "I’m with you and won’t steer until you ask.",
+                "closing": "You can let it be as it is, or rest attention on one steady point — your pace."
+              },
+              {
+                "id": "a7f2_p01_en_ab_01",
+                "aud": "ext",
+                "meta": { "family": "ask_boundary", "requiresTags": ["ask_approach"], "familyCooldownMs": 600000 },
+                "opening": "I’ll stay with you first and keep advice off.",
+                "middle": "We can sort your thoughts without deciding for you.",
+                "closing": "We can keep company as-is; if helpful, a brief settle is available — your call."
+              },
+              {
+                "id": "a7f2_p01_en_ab_02",
+                "aud": "ext",
+                "meta": { "family": "ask_boundary", "requiresTags": ["ask_approach"] },
+                "opening": "I won’t decide for you, and I’m here to make it clearer.",
+                "middle": "Let’s line up what matters and stop there for a beat.",
+                "closing": "You choose: stay with the feeling, or touch one gentle anchor — both are fine."
+              }
+            ],
+            "p02": [
+              {
+                "id": "a7f2_p02_en_01",
+                "aud": "ext",
+                "opening": "I’m hearing you straight: {{a1}} {{a2}}.",
+                "middle": "Your reasoning holds; I’ll keep it intact.",
+                "closing": "We can linger here as long as you like; I’ll keep listening."
+              },
+              {
+                "id": "a7f2_p02_en_02",
+                "aud": "ext",
+                "meta": { "cooldownMs": 5400000 },
+                "opening": "Thanks for being direct. I heard: {{a1}} {{a2}}.",
+                "middle": "I’ll keep the channel clear — no fixes added.",
+                "closing": "If you want to say more, I’m here; if not, we can just sit with it."
+              },
+              {
+                "id": "a7f2_p02_en_ab_01",
+                "aud": "ext",
+                "meta": { "family": "ask_boundary", "requiresTags": ["ask_approach"] },
+                "opening": "Let’s keep it steady — no prescriptions from me.",
+                "middle": "I’ll help you sort the pieces so your choice gets easier.",
+                "closing": "We can simply stay; a short settle is there if you want it."
+              }
+            ]
+          }
+        },
+        "b3c1": {
+          "label": "ground-body",
+          "variants": {
+            "p01": [
+              {
+                "id": "b3c1_p01_en_01",
+                "aud": "ext",
+                "meta": { "cooldownMs": 300000 },
+                "opening": "Let’s make contact with the body and nothing else.",
+                "middle": "Feet on floor for five seconds; name one color; exhale a beat longer.",
+                "closing": "That’s enough — we can repeat once and move on."
+              },
+              {
+                "id": "b3c1_p01_en_02",
+                "aud": "ext",
+                "meta": { "cooldownMs": 300000 },
+                "opening": "Just anchor: chair under you, jaw unclenched.",
+                "middle": "In through nose 4, out 6 — once or twice.",
+                "closing": "We’ll keep this purely physical."
+              },
+              {
+                "id": "b3c1_p01_en_03",
+                "aud": "ext",
+                "meta": { "cooldownMs": 300000 },
+                "opening": "Small reset only.",
+                "middle": "Count three textures you can touch; match each with a single breath.",
+                "closing": "Done. No extra talk layered on."
+              }
+            ],
+            "p02": [
+              {
+                "id": "b3c1_p02_en_01",
+                "aud": "ext",
+                "meta": { "cooldownMs": 300000 },
+                "opening": "Micro-pause.",
+                "middle": "Look around and name one stable object; breathe with it once.",
+                "closing": "Repeat only if helpful."
+              }
+            ],
+            "p03": [
+              {
+                "id": "b3c1_p03_en_01",
+                "aud": "ext",
+                "meta": { "requiresTags": ["rj"] },
+                "opening": "You weren’t being heard — noted.",
+                "middle": "One breath on the anchor you pick; then we can resume.",
+                "closing": "Say when you want to switch back to content."
+              }
+            ]
+          }
+        },
+        "d401": {
+          "label": "safety-hold",
+          "variants": {
+            "p01": [
+              {
+                "id": "d401_p01_en_01",
+                "aud": "ext",
+                "opening": "I’m here with you — let’s make space and steady together.",
+                "middle": "Stay with one safe thing: a color, a texture, or your breath in and out.",
+                "closing": "If you feel unsafe or at risk, please reach local support or emergency services. You matter."
+              },
+              {
+                "id": "d401_p01_en_02",
+                "aud": "ext",
+                "opening": "I’m here. We’ll slow everything down.",
+                "middle": "Feel your back supported; one slow breath is enough for now.",
+                "closing": "If safety is a concern, contacting someone nearby or a hotline can help."
+              }
+            ],
+            "p02": [
+              {
+                "id": "d401_p02_en_01",
+                "aud": "ext",
+                "opening": "Thank you for letting me know — this is a lot.",
+                "middle": "Stay with what’s stable: the chair, your feet, your breath.",
+                "closing": "If you’re in danger or might hurt yourself, call your local emergency number or a trusted person now."
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "slots": {
+    "w1": [
+      "heavy",
+      "overwhelmed",
+      "anxious",
+      "sad",
+      "tired",
+      "tender"
+    ],
+    "m1": {
+      "ground": [
+        "sip water",
+        "hand on chest",
+        "relax your jaw",
+        "look for three calm colors",
+        "slow inhale 4s, exhale 6s"
+      ]
+    }
+  },
+  "safety": {
+    "banned": [
+      "complete a task",
+      "kpi",
+      "next step",
+      "deliverable",
+      "execute the plan",
+      "plan ",
+      "schedule",
+      "roadmap",
+      "advice",
+      "suggestion",
+      "suggestions",
+      "approach",
+      "approaches",
+      "option",
+      "options",
+      "analysis",
+      "steps"      
+    ]
+  },
+  "diagnostic": {
+    "rules": [
+      {
+        "id": "dx2",
+        "when": [
+          "emotion=elated&intensity=low"
+        ],
+        "styleCode": "b3c1"
+      }
+    ]
+  },
+  "templates": {
+    "tri": {
+      "short": {
+        "en": {
+          "a": [
+            "I hear the core of it.",
+            "You’ve been clear about what’s at stake.",
+            "I’ve got the headline you just gave me."
+          ],
+          "b": [
+            "Key points: {{a1}} {{a2}}.",
+            "Main threads I’m tracking: {{a1}} {{a2}}.",
+            "You pointed to {{a1}} and also {{a2}}."
+          ],
+          "c": [
+            "We can stay here; no need to choose anything right now.",
+            "If more wants to be said, I’m here and listening.",
+            "You can simply let it be, or rest attention on one steady point — your pace."
+          ]
+        }
+      }
+    },
+    "ph": {
+      "en": {
+        "pool": [
+          "Picking up where we left,",
+          "Keeping the same gentle pace,",
+          "Let’s continue that steadiness,",
+          "Building on the last breath,",
+          "Holding the tone we had,",
+          "Staying with that softness,",
+          "We can keep it slow,",
+          "Returning to the same anchor,",
+          "Let’s keep attention in the body,",
+          "You did well last round,"
+        ]
+      }
+    },
+    "wh": {
+      "en": {
+        "line": "No need to fix anything yet — I’m here; take one slower breath."
+      }
+    },
+    "lp": {
+      "u": {
+        "en": {
+          "p1": [
+            "You laid this out clearly; I see the tradeoffs."
+          ],
+          "p2": [
+            "Shrink the effort to one breath’s worth: open the note, write one line, and stop.",
+            "Or, take a 2-minute reset and come back for a single 15-minute block."
+          ],
+          "p3": [
+            "You don’t have to solve it all today; a clean small move is real progress."
+          ]
+        }
+      },
+      "e": {
+        "en": {
+          "p1": [
+            "I can hear the tightness ebb and flow; first we steady.",
+            "We won’t over-talk it; one concrete move will be enough."
+          ],
+          "p2": [
+            "Rest attention on one steady point — chair, feet, or palm — one breath.",
+            "Then pick the next **first step** that fits in 15 minutes."
+          ],
+          "p3": [
+            "If you stall for >10 minutes, shrink it or switch to a 2-minute scout pass.",
+            "Skipping is allowed; choice is part of control."
+          ]
+        }
+      }
+    }
+  }
+}

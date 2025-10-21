@@ -1,0 +1,145 @@
+{
+  "version": "supplemental-2025q1",
+  "packs": [
+    {
+      "pack": "supplemental-2025q1",
+      "lang": {
+        "en": {
+          "styles": {
+            "a7f2": {
+              "variants": {
+                "p01": [
+                  {
+                    "id": "a7f2_p01_en_sup_01",
+                    "aud": "ext",
+                    "opening": "I’m with you and I’m tracking.",
+                    "middle": "Essentials I heard: {{a1}} {{a2}}.",
+                    "closing": "We can stay right here — no need to decide anything now."
+                  },
+                  {
+                    "id": "a7f2_p01_en_sup_ab_01",
+                    "aud": "ext",
+                    "meta": { "family": "ask_boundary", "requiresTags": ["ask_approach"], "familyCooldownMs": 600000 },
+                    "opening": "I’ll help you sort this, not decide for you.",
+                    "middle": "Let’s name what matters and pause right there.",
+                    "closing": "We can simply keep company; if helpful, a brief settle is there — your call."
+                  }
+                ],
+                "p02": [
+                  {
+                    "id": "a7f2_p02_en_sup_01",
+                    "aud": "ext",
+                    "opening": "No pressure to move fast.",
+                    "middle": "I’ll mirror back clearly and keep advice off until you ask.",
+                    "closing": "We can linger here; you can let it be as it is, or rest on one steady point — your pace."
+                  }
+                ]
+              }
+            },
+            "b3c1": {
+              "variants": {
+                "p01": [
+                  {
+                    "id": "b3c1_p01_en_sup_01",
+                    "aud": "ext",
+                    "meta": { "cooldownMs": 300000 },
+                    "opening": "Let’s make the moment a little steadier.",
+                    "middle": "Name one color you see and take one soft breath.",
+                    "closing": "That’s enough for now."
+                  }
+                ],
+                "p02": [
+                  {
+                    "id": "b3c1_p02_en_sup_01",
+                    "aud": "ext",
+                    "opening": "We’ll soften the pace a touch.",
+                    "middle": "Inhale for four, exhale for six, once or twice.",
+                    "closing": "You can repeat whenever needed."
+                  }
+                ]
+              }
+            },
+            "d401": {
+              "variants": {
+                "p01": [
+                  {
+                    "id": "d401_p01_en_sup_01",
+                    "aud": "ext",
+                    "opening": "This is a lot — let’s slow everything down together.",
+                    "middle": "Stay with one safe thing: your breath, a color, a steady touch.",
+                    "closing": "If safety is in question, please reach local supports. You matter."
+                  }
+                ],
+                "p02": [
+                  {
+                    "id": "d401_p02_en_sup_01",
+                    "aud": "ext",
+                    "opening": "I’m here; we’ll take it gently.",
+                    "middle": "Chair, feet, breath — pick one to rest on for a moment.",
+                    "closing": "If there’s danger, contact a trusted person or local services now."
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },        
+    {
+      "pack": "supplemental-2025q1-pools",
+      "pools": {
+        "tri.s.en.c": {
+          "short": [
+            "That’s enough for now; pausing is okay.",
+            "No rush to fix anything — steady first.",
+            "You can say no if it feels too much.",
+            "Stay only as long as you like.",
+            "A tiny bit is already plenty.",
+            "We can come back later; resting is allowed."
+          ],
+          "medium": [
+            "Keep the pace light and stop where it feels right.",
+            "You can leave the rest for later; that’s valid.",
+            "It’s okay to choose not to do this right now."
+          ],
+          "long": [
+            "Do what’s doable today and set the rest down.",
+            "Your pace leads; if you want to pause, I’m here."
+          ]
+        },
+        "ph.en.pool": {
+          "pool": [
+            "Picking up where we left,",
+            "Keeping the same gentle pace,",
+            "Let’s continue that steadiness,",
+            "Building on the last breath,",
+            "Holding the tone we had,",
+            "Staying with that softness,",
+            "We can keep it slow,",
+            "Returning to the same anchor,",
+            "Let’s keep attention in the body,",
+            "You did well last round,"
+          ]
+        },
+        "tri.s.en.b": {
+          "short": [
+            "Find a calm color and breathe with it once.",
+            "Hand on chest, notice one gentle exhale.",
+            "Feel the chair or your feet for three seconds.",
+            "Place attention on one safe touch point.",
+            "Roll the shoulders softly once or twice."
+          ],
+          "medium": [
+            "Sip water or glance out the window for a beat.",
+            "Shrink the task to one breath’s first step.",
+            "Name three colors you see, then one longer exhale."
+          ],
+          "long": [
+            "Choose one tiny, kind action — or skip it for now.",
+            "Rest on breath and body support for a couple cycles."
+          ]
+        }
+      }
+    }            
+  ]
+} 

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "schema": "responding.manifest.v1",
+  "assets": {
+    "templates": "src/logic/respondingTemplates.json",
+    "weights":   "src/config/routeWeights.ext.json",
+    "jitter":    "src/config/jitter.ext.json",
+    "overlays":  "src/data/routingOverlays.json",
+    "supplement":"src/data/supplementalTemplates.json"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": "rw-1c-ext",
+  "audience": "ext",
+  "styles": {
+    "a7f2": { "base": 0.98, "variants": { "p01": 0.70, "p02": 0.30 } },
+    "b3c1": { "base": 0.98, "variants": { "p01": 0.85, "p02": 0.15, "p03": 0.00 } },
+    "d401": { "base": 1.00, "variants": { "p01": 0.90, "p02": 0.10 } }
+  },
+  "neighborAffinity": {
+    "a7f2": { "b3c1": 0.12 },
+    "b3c1": { "a7f2": 0.12 },
+    "d401": { "b3c1": 0.20, "a7f2": 0.10 }
+  },
+  "audienceBias": {
+    "ext": {
+      "a7f2": 0.00,
+      "b3c1": 0.04,
+      "d401": 0.00
+    }    
+  },
+  "intensityOverrideChance": {
+    "medium": [0.12, 0.18],
+    "low": [0.08, 0.14],
+    "high": [0.00, 0.00]
+  },
+  "safety": {
+    "lockWhenHigh": ["d401"]
+  }
+}

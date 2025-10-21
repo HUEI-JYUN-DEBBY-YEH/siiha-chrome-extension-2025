@@ -1,0 +1,63 @@
+{
+  "version": "overlays-1d",
+  "miniSummary": {
+    "cooldownMs": 180000,
+    "prob": 0
+  },
+  "overlays": [
+    {
+      "id": "ovr_ask_approach_up_a7f2",
+      "targets": { "styleCodes": ["a7f2"] },
+      "conditions": { "requiresTags": ["ask_approach"] },
+      "effects": { "bias": 0.12 }
+    },
+    {
+      "id": "ovr_gate_p1_prefer_b3c1",
+      "targets": { "styleCodes": ["b3c1"] },
+      "conditions": { "requiresTags": ["p1"] },
+      "effects": { "bias": 0.50 }
+    },
+    {
+      "id": "ovr_gate_p1_downscale_others",
+      "targets": { "styleCodes": ["a7f2"] },
+      "conditions": { "requiresTags": ["p1"] },
+      "effects": { "bias": -0.40 }
+    },
+    {
+      "id": "ovr_grounding_cue",
+      "targets": { "styleCodes": ["b3c1"] },
+      "conditions": { "requiresTags": ["grounding_cue"] },
+      "effects": { "bias": 0.08 }
+    },
+    {
+      "id": "ovr_physio_cue",
+      "targets": { "styleCodes": ["b3c1"] },
+      "conditions": { "requiresTags": ["physio"] },
+      "effects": { "bias": 0.10 }
+    },
+    {
+      "id": "ovr_crisis_priority",
+      "targets": { "styleCodes": ["d401"] },
+      "conditions": { "requiresTags": ["crisis_lang"] },
+      "effects": { "bias": 0.20 }
+    },
+    {
+      "id": "ovr_tag_anxious_a7f2_up",
+      "targets": { "styleCodes": ["a7f2"] },
+      "conditions": { "requiresTags": ["anxious_cue"] },
+      "effects": { "bias": 0.03 }
+    },
+    {
+      "id": "ovr_tag_anxious_b3c1_up",
+      "targets": { "styleCodes": ["b3c1"] },
+      "conditions": { "requiresTags": ["anxious_cue"] },
+      "effects": { "bias": 0.05 }
+    },
+    {
+      "id": "ovr_zh_en_crisis_pref_gentle_core",
+      "targets": { "styleCodes": ["a7f2","b3c1"] },
+      "conditions": { "requiresTags": ["crisis_lang"] },
+      "effects": { "bias": 0.20 }
+    }
+  ]
+}
