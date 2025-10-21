@@ -85,7 +85,8 @@ For responsible disclosure or privacy questions, please open an issue in the rep
 ---
 
 ## Author & Developer
-HUEI-JYUN Debby YEH 
-📫 debby83317@gmail.com
-🔗 GitHub: @HUEI-JYUN-DEBBY-YEH(https://github.com/HUEI-JYUN-DEBBY-YEH) 
-🙋‍♀️ LinkedIn: @HUEI-JYUN-DEBBY-YEH(https://www.linkedin.com/in/debbyyeh/)
+
+**HUEI-JYUN Debby YEH**  
+📫 <debby83317@gmail.com>  
+🔗 GitHub: [@HUEI-JYUN-DEBBY-YEH](https://github.com/HUEI-JYUN-DEBBY-YEH)  
+🙋‍♀️ LinkedIn: [debbyyeh](https://www.linkedin.com/in/debbyyeh/)
