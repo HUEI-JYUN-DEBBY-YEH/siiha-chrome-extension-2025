@@ -193,3 +193,7 @@ _Local-first presence. No scraping. No uploads. Just space to breathe._
 📫 <debby83317@gmail.com>  
 🔗 GitHub: [@HUEI-JYUN-DEBBY-YEH](https://github.com/HUEI-JYUN-DEBBY-YEH)  
 🙋‍♀️ LinkedIn: [debbyyeh](https://www.linkedin.com/in/debbyyeh/)
+
+---
+
+📄 License: MIT — see LICENSE file for full terms.
